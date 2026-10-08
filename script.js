@@ -32,6 +32,19 @@ const JOURNEY = [
     ],
   },
   {
+    type: "freelance",
+    title: "Dental Clinic Management System", role: "Freelance Full-Stack Developer", org: "Freelance client",
+    place: "Damanhour, Egypt", start: "2026-04", end: "2026-10",
+    tags: ["Spring Boot", "React", "JWT", "H2 / PostgreSQL", "jpackage", "Cloudflare Tunnel"],
+    points: [
+      "Designed, built and sold a complete practice-management system to a dental clinic in Damanhour. It is now used daily by doctors and receptionists.",
+      "Covers patients, medical records and X-ray uploads, appointments, payments, balances and receipts, expenses and earnings, staff and roles.",
+      "Shipped as a single Windows app (DentalClinic.exe) with an embedded database: no server or IT staff needed at the clinic.",
+      "Phones on the clinic Wi-Fi connect by QR code; doctors can work from home through a secure Cloudflare tunnel.",
+      "Added one-click backup & restore, login-attempt limiting and per-user device limits, plus English and Arabic user guides.",
+    ],
+  },
+  {
     type: "eng",
     title: "Go Telecom — Go-Money LMS", role: "Software Engineer", org: "Ejada Systems",
     place: "Riyadh, KSA", start: "2026-03", end: "2026-06",
@@ -133,8 +146,6 @@ const RECOMMENDATIONS = [
 ];
 
 const PROJECTS = [
-  { icon: "🦷", title: "Dental Clinic Management — Backend API", metric: "JWT", metricLabel: "role-based access",
-    desc: "Production-ready Spring Boot REST API for patients, appointments, medical records and scan uploads, with role-based access for doctors and receptionists." },
   { icon: "⚽", title: "Football Analysis System", metric: "85%", metricLabel: "precision",
     desc: "Real-time player-movement tracking with YOLOv8." },
   { icon: "🔬", title: "Teeth Classification with ResNet50", metric: "92%", metricLabel: "accuracy",

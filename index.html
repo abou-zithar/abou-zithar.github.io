@@ -132,6 +132,7 @@
         <div class="filters" id="filters">
           <button class="chip active" data-filter="all">All</button>
           <button class="chip" data-filter="eng">Engineering</button>
+          <button class="chip" data-filter="freelance">Freelance</button>
           <button class="chip" data-filter="teach">Teaching</button>
         </div>
       </div>
@@ -191,6 +192,60 @@
         <span class="eyebrow">// things I've built</span>
         <h2>Projects</h2>
       </div>
+      <article class="featured reveal">
+        <div class="featured-main">
+          <div class="featured-badges">
+            <span class="fb fb-sold"><span class="pulse"></span>Sold · In daily use</span>
+            <span class="fb">Freelance</span>
+            <span class="fb">📍 Damanhour, Egypt</span>
+          </div>
+          <h3>🦷 Dental Clinic Management System</h3>
+          <p class="featured-lead">
+            A complete practice-management system I designed, built and <strong>sold to a dental clinic in Damanhour, Egypt</strong>.
+            It ships as a single Windows app, so the clinic needs no server and no IT staff, and doctors can still reach it from their phones or from home.
+          </p>
+          <ul class="featured-list">
+            <li><strong>Patients &amp; records:</strong> profiles, diagnoses, treatments, X-ray uploads</li>
+            <li><strong>Appointments &amp; billing:</strong> payments, discounts, balances, printable receipts</li>
+            <li><strong>Finance dashboard:</strong> expenses, earnings, income vs. expenses</li>
+            <li><strong>Access anywhere:</strong> QR code on the clinic Wi-Fi + secure Cloudflare tunnel</li>
+            <li><strong>Safe by default:</strong> JWT roles, login limits, device limits, one-click backup &amp; restore</li>
+            <li><strong>Bilingual:</strong> English &amp; Arabic user guides</li>
+          </ul>
+          <div class="tl-tags">
+            <span class="tag">Java 17</span><span class="tag">Spring Boot</span><span class="tag">Spring Security · JWT</span>
+            <span class="tag">JPA</span><span class="tag">React 18</span><span class="tag">Vite</span>
+            <span class="tag">H2 / PostgreSQL</span><span class="tag">jpackage .exe</span><span class="tag">Docker</span>
+          </div>
+          <div class="featured-cta">
+            <a class="btn primary" href="#contact">Want one for your clinic?</a>
+            <span class="muted featured-note">🔒 Private repository · code walkthrough &amp; demo on request</span>
+          </div>
+        </div>
+        <div class="featured-side" aria-hidden="true">
+          <div class="mock">
+            <div class="mock-bar"><span class="dot r"></span><span class="dot y"></span><span class="dot g"></span><span class="mock-url">localhost:8080/dashboard</span></div>
+            <div class="mock-body">
+              <div class="mock-nav"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="mock-content">
+                <div class="mock-kpis">
+                  <div><small>Appointments</small><i></i></div>
+                  <div><small>Patients</small><i></i></div>
+                  <div><small>Balances</small><i></i></div>
+                </div>
+                <div class="mock-chart"><span style="--h:45%"></span><span style="--h:62%"></span><span style="--h:38%"></span><span style="--h:75%"></span><span style="--h:58%"></span><span style="--h:88%"></span><span style="--h:70%"></span></div>
+                <div class="mock-rows"><i></i><i></i><i></i></div>
+              </div>
+            </div>
+          </div>
+          <div class="featured-stats">
+            <div><b>16</b><span>app screens</span></div>
+            <div><b>18</b><span>API controllers</span></div>
+            <div><b>2</b><span>languages</span></div>
+          </div>
+        </div>
+      </article>
+
       <div class="projects" id="projectsGrid"></div>
 
       <div class="section-head sub reveal">
